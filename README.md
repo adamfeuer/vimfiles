@@ -1,12 +1,11 @@
 Installation (in your home)
 
-    git clone git://github.com/scottmuc/vimfiles.git
+    git clone git://github.com/scottmuc/vimfiles.git .vim
 
 Windows:
 
-    copy %USERPROFILE%\vimfiles\vimrc %USERPROFILE%\_vimrc
+    cd .vim; install.bat
 
 Unix:
 
-    ln -s ~/vimfiles/vimrc ~/.vimrc
-    ln -s ~/vimfiles ~/.vim
+    cd .vim; sh install.sh
