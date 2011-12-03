@@ -9,6 +9,9 @@ call vundle#rc()
 
 Bundle 'gmarik/vundle'
 Bundle 'scrooloose/nerdtree'
+Bundle 'molokai'
+Bundle 'powershell-vim'
+
 "----------------------------------------------------------
 " OS specific configuration
 "----------------------------------------------------------
