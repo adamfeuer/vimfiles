@@ -1,3 +1,3 @@
-ln -s ~/vimfiles/vimrc ~/.vimrc
-ln -s ~/vimfiles ~/.vim
-
+git submodule init
+git submodule update
+ln -s ~/.vim/vimrc ~/.vimrc
