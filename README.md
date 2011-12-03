@@ -4,8 +4,8 @@ Installation (in your home)
 
 Windows:
 
-    cd .vim; install.bat
+    cd .vim && install.bat
 
 Unix:
 
-    cd .vim; sh install.sh
+    cd .vim && sh install.sh

@@ -9,7 +9,7 @@ call vundle#rc()
 
 Bundle 'scrooloose/nerdtree'
 Bundle 'molokai'
-Bundle 'gabemv/powershell-vim'
+Bundle 'gabemc/powershell-vim'
 
 "----------------------------------------------------------
 " OS specific configuration
