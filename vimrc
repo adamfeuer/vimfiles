@@ -8,7 +8,7 @@ set rtp+=~/vimfiles/bundle/vundle/
 call vundle#rc()
 
 Bundle 'gmarik/vundle'
-
+Bundle 'scrooloose/nerdtree'
 "----------------------------------------------------------
 " OS specific configuration
 "----------------------------------------------------------
