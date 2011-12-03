@@ -4,13 +4,12 @@
 " Making an attempt clean and document my vimfile
 
 filetype off
-set rtp+=~/vimfiles/bundle/vundle/
+set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
 
-Bundle 'gmarik/vundle'
 Bundle 'scrooloose/nerdtree'
 Bundle 'molokai'
-Bundle 'powershell-vim'
+Bundle 'gabemv/powershell-vim'
 
 "----------------------------------------------------------
 " OS specific configuration
