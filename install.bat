@@ -1,5 +1,4 @@
-cmd.exe /C git submodule init
-cmd.exe /C git submodule update
+cmd.exe /C git clone git://github.com/gmarik/vundle.git bundle/vundle 
 if exist ..\_vimrc ( 
     del ..\_vimrc
 )

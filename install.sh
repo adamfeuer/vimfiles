@@ -1,3 +1,2 @@
-git submodule init
-git submodule update
+git clone git://github.com/gmarik/vundle.git bundle/vundle 
 ln -s ~/.vim/vimrc ~/.vimrc
