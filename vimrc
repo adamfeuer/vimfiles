@@ -48,7 +48,7 @@ set nostartofline
 
 set scrolloff=4
 
-set listchars=trail:.
+set listchars=tab:?\ ,eol:¬,trail:.
 
 " show invisible characters like tabstops
 set list
@@ -83,6 +83,11 @@ nmap <silent> ,ev :e $MYVIMRC<cr>
 " And to source this file as well (mnemonic for the key sequence is
 " 's'ource 'v'imrc)
 nmap <silent> ,sv :so $MYVIMRC<cr>
+
+imap jj <esc>
+
+nmap j gj
+nmap k gk
 
 
 "----------------------------------------------------------
