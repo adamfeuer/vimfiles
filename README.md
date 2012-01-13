@@ -1,6 +1,6 @@
 Installation (in your home)
 
-    git clone git://github.com/scottmuc/vimfiles.git .vim
+    git clone git://github.com/adamfeuer/vimfiles.git .vim
 
 Windows:
 
@@ -9,3 +9,8 @@ Windows:
 Unix:
 
     cd .vim && sh install.sh
+
+
+After installing, launch vim and do ':BundleInstall' to install the vundle bundles.
+
+
